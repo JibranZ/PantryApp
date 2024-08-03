@@ -1,0 +1,39 @@
+/* page.module.css */
+.container {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pantryBox {
+  border: 1px solid #333;
+}
+
+.header {
+  width: 800px;
+  height: 100px;
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pantryItems {
+  width: 800px;
+  height: 500px;
+  spacing: 2rem;
+  overflow: auto;
+}
+
+.itemBox {
+  width: 100%;
+  min-height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
